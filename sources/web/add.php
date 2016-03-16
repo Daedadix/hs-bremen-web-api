@@ -14,3 +14,4 @@ $b = $_GET['b'];
 $calc = new Calculator();
 $result = $calc ->add($a, $b);
 
+?>
