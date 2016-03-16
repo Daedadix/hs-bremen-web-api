@@ -6,10 +6,11 @@
  * Time: 3:40 PM
  */
 
-namespace HsBremen\WebApi;
-
 
 class Calculator
 {
+    public function add($a, $b){
+        return $a + $b;
+    }
 
 }

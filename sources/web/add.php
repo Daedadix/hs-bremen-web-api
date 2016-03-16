@@ -6,7 +6,7 @@
  * Time: 3:37 PM
  */
 
-require_once
+require_once 'Calculator.php';
 
 $a = $_GET['a'];
 $b = $_GET['b'];
@@ -14,4 +14,6 @@ $b = $_GET['b'];
 $calc = new Calculator();
 $result = $calc ->add($a, $b);
 
+echo "Das Ergebnis ist: $result";
 ?>
+
