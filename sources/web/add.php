@@ -14,6 +14,6 @@ $b = $_GET['b'];
 $calc = new Calculator();
 $result = $calc ->add($a, $b);
 
-echo "Das Ergebnis ist: $result";
-?>
+echo "Das Ergebnis lautet: $result";
+
 
